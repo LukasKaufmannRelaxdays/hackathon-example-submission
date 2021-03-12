@@ -11,5 +11,5 @@ cd hackathon-example-submission
 docker build -t hackathon-example .
 docker run -v .:/app -p 8080:80 -it hackathon-example
 ```
-If you now access http://localhost:8080/ you should see the thing you want to review.
+If you now access http://127.0.0.1:8080/ you should see the thing you want to review.
 
